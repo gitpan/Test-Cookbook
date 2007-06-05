@@ -7,7 +7,7 @@ use warnings ;
 BEGIN 
 {
 use vars qw ($VERSION @ISA @EXPORT_OK %EXPORT_TAGS);
-$VERSION     = 0.01;
+$VERSION     = 0.02;
 
 #~ use version ;
 #~ our $VERSION  = qv('0.01') ;
@@ -109,8 +109,7 @@ This is automatically called for you by Perl
 
 =cut
 
-my $parser = POD::Tested->new(INPUT => $PROGRAM_NAME, @setup) ;
-$parser->parse_from_filehandle(IO::String->new($_)) ;	
+my $parser = POD::Tested->new(INPUT => $PROGRAM_NAME, @setup, STRING => $_) ;
 
 return(1) ;
 } ;

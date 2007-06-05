@@ -206,7 +206,7 @@ my $build = $class->new
 		'Sub::Exporter'     => 0,
 		'Data::TreeDumper' => 0,
 		'Filter::Simple' => 0,
-		'POD::Tested' => 0,
+		'POD::Tested' => 0.03,
 		'IO::String' => 0,
 		'version'    => 0.50,
 		
