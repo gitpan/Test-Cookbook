@@ -1,6 +1,6 @@
 ---
 name: Test-Cookbook
-version: 0.02
+version: 0.04
 author:
   - 'Khemir Nadim ibn Hamouda. <nadim@khemir.net>'
 abstract: "Write your tests as cookbooks\n"
@@ -12,7 +12,7 @@ requires:
   Data::TreeDumper: 0
   Filter::Simple: 0
   IO::String: 0
-  POD::Tested: 0.03
+  POD::Tested: 0.05
   Readonly: 0
   Sub::Exporter: 0
   Test::Block: 0
@@ -30,8 +30,8 @@ requires:
 provides:
   Test::Cookbook:
     file: lib/Test/Cookbook.pm
-    version: 0.02
-generated_by: Module::Build version 0.2805
+    version: 0.04
+generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2

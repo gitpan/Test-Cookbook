@@ -7,7 +7,7 @@ use warnings ;
 BEGIN 
 {
 use vars qw ($VERSION @ISA @EXPORT_OK %EXPORT_TAGS);
-$VERSION     = 0.02;
+$VERSION     = 0.04;
 
 #~ use version ;
 #~ our $VERSION  = qv('0.01') ;
@@ -38,7 +38,7 @@ my @setup ;
 
 =head1 SYNOPSIS
 
-With your test formated as a cookbook in B<t/005_cookbook.t>
+With your test formatted as a cookbook in B<t/005_cookbook.t>
 
 	$> ./Build test
 	

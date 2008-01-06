@@ -1,0 +1,5 @@
+0.04
+	CHANGED: replaced POD::Spelling by Perl::Critic policy
+
+0.03
+	FIXED: added "use Test::More3 in t/000_fixme.t
