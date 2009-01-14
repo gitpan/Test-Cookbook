@@ -7,10 +7,7 @@ use warnings ;
 BEGIN 
 {
 use vars qw ($VERSION @ISA @EXPORT_OK %EXPORT_TAGS);
-$VERSION     = 0.04;
-
-#~ use version ;
-#~ our $VERSION  = qv('0.01') ;
+$VERSION = '0.05' ;
 }
 
 #-------------------------------------------------------------------------------
@@ -94,7 +91,7 @@ This is automatically called for you by Perl
 
 =cut
 	
-(my $my_name, @setup) = @_ ;
+#~ (my $my_name, @setup) = @_ ;
 
 return(1) ;
 }
